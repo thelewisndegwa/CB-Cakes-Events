@@ -30,6 +30,9 @@ export function Layout() {
       <Footer />
       <div className="mobile-bar">
         <Link to="/contact">Inquire</Link>
+        <a href={brand.instagramUrl} target="_blank" rel="noreferrer">
+          Instagram
+        </a>
         <a href={brand.whatsappUrl} target="_blank" rel="noreferrer">
           WhatsApp
         </a>

@@ -381,19 +381,27 @@ ul {
   bottom: 0;
   z-index: 45;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   border-top: 1px solid var(--beige);
   background: var(--ivory);
 }
 
 .mobile-bar a {
+  min-width: 0;
   min-height: 3.4rem;
   display: grid;
   place-items: center;
-  font-size: 0.72rem;
+  padding-inline: 0.25rem;
+  overflow: hidden;
+  font-size: 0.62rem;
   font-weight: 600;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.mobile-bar a + a {
+  border-left: 1px solid var(--beige);
 }
 
 .mobile-bar a:first-child {
