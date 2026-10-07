@@ -118,6 +118,7 @@ export function Contact() {
                   <option>Birthday</option>
                   <option>Engagement</option>
                   <option>Anniversary</option>
+                  <option>Corporate event</option>
                   <option>Other celebration</option>
                 </select>
               </label>

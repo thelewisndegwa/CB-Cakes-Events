@@ -11,8 +11,10 @@ import { logo, pieceById } from "../data/site";
 
 const gold = pieceById("wedding-white-gold");
 const blue = pieceById("wedding-blue-gold");
-const burgundy = pieceById("wedding-burgundy");
+const seaside = pieceById("dinner-seaside");
+const gala = pieceById("gala-dinner-podium");
 const signature = [gold, blue];
+const eventShots = [seaside, gala];
 
 const categories = [
   {
@@ -111,15 +113,16 @@ export function Home() {
           <div>
             <SectionHeading eyebrow="Events" title="More than a cake." />
             <p>
-              We create beautiful dessert experiences that complement the atmosphere, style and story
-              of your celebration. The cake is made to belong to the room, the table and the people
-              gathered there.
+              We style the celebration around the cake: wedding tents and aisles, a dinner for two
+              above the sea, gala tables and branded corporate setups. The cake is made to belong to
+              the room, the table and the people gathered there.
             </p>
             <Link className="text-link" to="/events">
               Explore events
             </Link>
+            <Shot piece={gala} onOpen={() => open(eventShots, 1)} />
           </div>
-          <Shot piece={burgundy} onOpen={() => open([burgundy], 0)} />
+          <Shot piece={seaside} onOpen={() => open(eventShots, 0)} />
         </div>
       </section>
 

@@ -476,6 +476,10 @@ ul {
   padding-bottom: clamp(4.5rem, 10vw, 7.5rem);
 }
 
+.events-home-grid .text-link + .shot {
+  margin-top: 2.5rem;
+}
+
 .spread-side {
   display: grid;
   gap: 1.5rem;
@@ -759,9 +763,15 @@ ul {
 
 .cake-category,
 .event-block,
+.event-gallery,
 .event-note {
   width: min(1180px, calc(100% - (var(--gutter) * 2)));
   margin: 0 auto clamp(4rem, 8vw, 6.5rem);
+}
+
+/* A gallery that follows an event block: pull it up so it reads as part of the same section. */
+.event-block + .event-gallery {
+  margin-top: calc(clamp(4rem, 8vw, 6.5rem) * -1 + 2.25rem);
 }
 
 .cake-category-copy,
@@ -772,6 +782,10 @@ ul {
 .cake-category .folio {
   padding-bottom: 0;
   margin-top: 1.5rem;
+}
+
+.event-gallery .folio {
+  padding-bottom: 0;
 }
 
 .inline-ask {
@@ -973,6 +987,18 @@ body:has(.lightbox) .mobile-bar {
 
   .folio-lead {
     grid-row: span 2;
+  }
+
+  /* Sets that mix portrait and landscape photographs flow down two tight columns. */
+  .folio-flow {
+    display: block;
+    columns: 2;
+    column-gap: 2.25rem;
+  }
+
+  .folio-flow .shot {
+    break-inside: avoid;
+    margin-bottom: 2.25rem;
   }
 }
 

@@ -16,14 +16,14 @@ export function Portfolio() {
     <>
       <PageMeta
         title="Portfolio | CB Cakes & Events"
-        description="Wedding and celebration cakes by CB Cakes & Events in Mombasa, photographed at the event."
+        description="Cakes, wedding styling, private dinners and corporate event setups by CB Cakes & Events in Mombasa, photographed at the event."
       />
       <header className="page-header wrap">
         <p className="eyebrow">Portfolio · Mombasa</p>
         <h1>The work.</h1>
         <p>
-          Wedding and celebration cakes from the studio, photographed where they were served. Select
-          a photograph to view it larger.
+          Cakes, wedding and celebration setups, private dinners and corporate events from the
+          studio, photographed where they happened. Select a photograph to view it larger.
         </p>
       </header>
 
@@ -43,13 +43,12 @@ export function Portfolio() {
         </div>
 
         {visible.length > 0 ? (
-          <ImageGallery pieces={visible} />
+          <ImageGallery pieces={visible} flow />
         ) : (
           <div className="empty-archive">
             <p>
-              Birthday cakes are made to order, so there are no birthday photographs in this
-              selection yet. Tell us about the person and the day, and we will design the cake around
-              them.
+              There are no photographs in this selection yet. Tell us about the person and the day,
+              and we will design the cake around them.
             </p>
             <Link className="btn" to="/contact">
               Start an inquiry
