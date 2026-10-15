@@ -14,14 +14,14 @@ export function Cakes() {
     <>
       <PageMeta
         title="Cakes | CB Cakes & Events"
-        description="Wedding cakes, birthday cakes and custom celebration cakes by CB Cakes & Events in Mombasa."
+        description="Custom wedding, birthday and celebration cakes by CB Cakes & Events, an event organising company in Mombasa."
       />
       <header className="page-header wrap">
         <p className="eyebrow">Cakes · Mombasa</p>
-        <h1>Centrepieces, made for the day.</h1>
+        <h1>Cakes for the events we organise.</h1>
         <p>
-          Weddings, birthdays and the celebrations that do not fit a category. Every cake begins with
-          a conversation.
+          We bake for the celebrations we plan, and for days that only need a cake. Weddings,
+          birthdays and occasions that do not fit a category. Every cake begins with a conversation.
         </p>
       </header>
 

@@ -39,11 +39,11 @@ export function Contact() {
     <>
       <PageMeta
         title="Inquire | CB Cakes & Events"
-        description="Tell CB Cakes & Events about your wedding, birthday or celebration in Mombasa. Inquire by form, WhatsApp, phone or email."
+        description="Tell CB Cakes & Events about the event you are planning in Mombasa — weddings, dinners, corporate functions, or a cake. Inquire by form, WhatsApp, phone or email."
       />
       <header className="page-header wrap">
         <p className="eyebrow">Inquire · {brand.place}</p>
-        <h1>Tell us about your celebration.</h1>
+        <h1>Tell us about your event.</h1>
         <p>A few details are enough to begin. Sending the form opens WhatsApp with your inquiry, ready for you to send.</p>
       </header>
 

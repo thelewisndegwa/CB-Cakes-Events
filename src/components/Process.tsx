@@ -1,23 +1,23 @@
 const steps = [
   {
     n: "01",
-    title: "Tell us about your celebration",
-    text: "The date, the place, who it is for, and what you already have in mind.",
+    title: "Tell us about the event",
+    text: "The date, the place, how many guests, and what the day needs to feel like.",
   },
   {
     n: "02",
-    title: "Design the experience",
-    text: "We shape the cake, and the way it sits in the day, around your celebration.",
+    title: "Plan the celebration",
+    text: "We work out the styling, the flow of the day, and whether a cake from us belongs in it.",
   },
   {
     n: "03",
-    title: "We create your centrepiece",
-    text: "The cake is made with care, for the gathering it belongs to.",
+    title: "Set the day",
+    text: "Tents, tables, florals, signage and backdrops — and the cake, when it is part of the brief.",
   },
   {
     n: "04",
     title: "Celebrate",
-    text: "A centrepiece, ready for the moment you have been planning.",
+    text: "You host. The room, the table and the details are already in place.",
   },
 ];
 

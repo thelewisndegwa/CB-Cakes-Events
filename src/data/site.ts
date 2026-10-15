@@ -29,7 +29,7 @@ export function inquiryWhatsAppUrl(fields: {
   const lines = [
     "Hello CB Cakes & Events,",
     "",
-    "I would like to inquire about a celebration.",
+    "I would like to inquire about an event.",
     "",
     `Name: ${fields.name}`,
     `Email: ${fields.email}`,
@@ -50,8 +50,8 @@ export function inquiryWhatsAppUrl(fields: {
 }
 
 export const nav = [
-  { to: "/cakes", label: "Cakes" },
   { to: "/events", label: "Events" },
+  { to: "/cakes", label: "Cakes" },
   { to: "/portfolio", label: "Portfolio" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },

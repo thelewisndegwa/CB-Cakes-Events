@@ -1,6 +1,6 @@
 # CB Cakes & Events
 
-Portfolio site for CB Cakes & Events, a cake and events studio in Mombasa.
+Portfolio site for CB Cakes & Events, an event organising company in Mombasa that also makes cakes.
 
 ## Develop
 

@@ -1,14 +1,28 @@
 import { Link } from "react-router-dom";
 import { pieceById } from "../data/site";
 
-const hero = pieceById("wedding-burgundy");
+const hero = pieceById("wedding-aisle-cn");
 
 export function Hero() {
   return (
     <section className="hero">
       <div className="hero-copy">
         <p className="eyebrow">CB Cakes &amp; Events · Mombasa</p>
-        <h1>Cakes made for moments worth celebrating.</h1>
+        <h1>We organise the event.</h1>
+        <div className="hero-actions">
+          <p>
+            Weddings, private dinners, birthdays and corporate functions in Mombasa — planned and
+            styled by us, with custom cakes made for the day as well.
+          </p>
+          <div className="btn-row">
+            <Link className="btn" to="/contact">
+              Start an inquiry
+            </Link>
+            <Link className="btn btn-ghost" to="/events">
+              Explore events
+            </Link>
+          </div>
+        </div>
       </div>
       <figure className="hero-photo">
         <img
@@ -19,20 +33,6 @@ export function Hero() {
           fetchPriority="high"
         />
       </figure>
-      <div className="hero-actions">
-        <p>
-          Custom cakes, beautifully designed desserts and event experiences crafted for weddings,
-          birthdays and unforgettable celebrations.
-        </p>
-        <div className="btn-row">
-          <Link className="btn" to="/contact">
-            Start an inquiry
-          </Link>
-          <Link className="btn btn-ghost" to="/portfolio">
-            View our work
-          </Link>
-        </div>
-      </div>
     </section>
   );
 }

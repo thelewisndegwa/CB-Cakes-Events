@@ -18,9 +18,9 @@ function NotFound() {
       />
       <p className="eyebrow">CB Cakes &amp; Events</p>
       <h1>This page is not here.</h1>
-      <p>The studio, the cakes and the inquiry are still a click away.</p>
+      <p>The events, the cakes and the inquiry are still a click away.</p>
       <Link className="btn" to="/">
-        Back to the studio
+        Back home
       </Link>
     </header>
   );
