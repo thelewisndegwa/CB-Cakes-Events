@@ -13,7 +13,7 @@ const gala = pieceById("gala-dinner-podium");
 
 // First item in each list takes the double-height lead slot, so lead with a portrait photograph.
 const weddings = [
-  pieceById("wedding-welcome-tents"),
+  pieceById("wedding-aisle-cn"),
   pieceById("wedding-garden-cake-table"),
   pieceById("garden-reception-copper"),
   pieceById("wedding-mirror-sign"),

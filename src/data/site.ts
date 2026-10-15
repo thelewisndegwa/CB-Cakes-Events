@@ -86,7 +86,7 @@ export type WorkPiece = {
  * birthday-safari              ← Cakes/WhatsApp Image 2026-10-07 at 1.54.17 PM.jpeg
  * wedding-garden-cake-table    ← celebration-events/WhatsApp Image 2026-10-07 at 1.28.58 PM.jpeg
  * wedding-aisle-tent           ← celebration-events/WhatsApp Image 2026-10-07 at 1.28.59 PM (2).jpeg
- * wedding-welcome-tents        ← celebration-events/WhatsApp Image 2026-10-07 at 1.29.01 PM.jpeg
+ * wedding-aisle-cn             ← WhatsApp Image 2026-10-11 at 10.14.32 PM.jpeg
  * traditional-wedding-backdrop ← celebration-events/WhatsApp Image 2026-10-07 at 1.28.59 PM (1).jpeg
  * wedding-mirror-sign          ← celebration-events/WhatsApp Image 2026-10-07 at 1.54.16 PMrhr.jpeg
  * garden-reception-copper      ← celebration-events/WhatsApp Image 2026-10-07 at 1.28.59 PM (3).jpeg
@@ -193,11 +193,11 @@ export const pieces: WorkPiece[] = [
     tags: ["weddings", "events"],
   },
   {
-    id: "wedding-welcome-tents",
-    src: "/images/events/wedding-welcome-tents.jpg",
-    width: 1200,
-    height: 1600,
-    alt: "Wedding welcome sign in white, green and gold set on a lawn in front of white peaked tents, with a red carpet and flower-topped pillars",
+    id: "wedding-aisle-cn",
+    src: "/images/events/wedding-aisle-cn.jpg",
+    width: 576,
+    height: 1024,
+    alt: "White wedding aisle printed with a C and N monogram and navy florals, leading to a navy-trimmed peaked tent and a sweetheart table on the lawn",
     label: "Wedding",
     kind: "event",
     tags: ["weddings", "events"],
